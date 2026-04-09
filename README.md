@@ -6,7 +6,19 @@ The script navigates to the loyalty lounge page, dismisses any sign-up popup, en
 
 ## Prerequisites
 
-- [Node.js](https://nodejs.org/) (v18 or later)
+- [Node.js](https://nodejs.org/) (v18 or later) — includes `npm` and `npx`
+- [Git](https://git-scm.com/) — to clone the repo
+
+### Installing Prerequisites (Windows)
+
+If you don't have Git or Node.js installed, you can install both with [winget](https://learn.microsoft.com/en-us/windows/package-manager/winget/) (built into Windows 10/11):
+
+```powershell
+winget install Git.Git
+winget install OpenJS.NodeJS.LTS
+```
+
+Close and reopen your terminal after installing so the new commands are available.
 
 ## Setup
 
